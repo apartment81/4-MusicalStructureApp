@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:id="@+id/list_album_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/albumimage" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:paddingStart="@dimen/activity_vertical_margin">
+
+
+        <TextView
+            android:id="@+id/song_title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold"
+            tools:text="@string/song_title_list" />
+
+        <TextView
+            android:id="@+id/artist_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/artist_name_list" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/list_play_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/content_play_btn" />
+
+</LinearLayout>

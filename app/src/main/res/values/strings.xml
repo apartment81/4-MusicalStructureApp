@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="category_player">Player</string>
+    <string name="category_songs">Songs</string>
+    <string name="category_albums">Albums</string>
+    <string name="song_title_list">song title</string>
+    <string name="artist_name_list">artist name</string>
+    <string name="content_play_btn">play_btn</string>
+    <string name="btn_rew">rew</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_ffw">ffw</string>
+    <string name="play_image">play_image</string>
+    <string name="rev_text">rev text</string>
+    <string name="ffw_text">ffw text</string>
+    <string name="song_title">Song Title</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="albumimage">albumImage</string>
+    <string name="mnu_songs">Songs</string>
+    <string name="mnu_albums">Albums</string>
+    <string name="start_time">00:00</string>
+</resources>
